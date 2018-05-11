@@ -6,7 +6,7 @@ minikube start
 kubectl cluster-info
 kubectl get nodes
 ```
-![alt text](https://github.com/d8920ya/emergency-notepad/Pictures/1_KubernetesNodes.jpg "Pastikan Nodes sudah running")
+![alt text](https://github.com/d8920ya/emergency-notepad/blob/master/Pictures/1_KubernetesNodes.jpg "Pastikan Nodes sudah running")
 
 ---
 
@@ -24,8 +24,8 @@ kubectl expose rc notepad --port=80 --target-port=80 --type=NodePort
 kubectl get service
 kubectl describe service notepad
 
-![alt text](https://github.com/d8920ya/emergency-notepad/Pictures/2_ReplicationController-1.jpg "Dokumentasi Replication Controller #1")
-![alt text](https://github.com/d8920ya/emergency-notepad/Pictures/3_ReplicationController-2.jpg "Dokumentasi Replication Controller #2")
+![alt text](https://github.com/d8920ya/emergency-notepad/blob/master/Pictures/2_ReplicationController-1.jpg "Dokumentasi Replication Controller #1")
+![alt text](https://github.com/d8920ya/emergency-notepad/blob/master/Pictures/3_ReplicationController-2.jpg "Dokumentasi Replication Controller #2")
 
 ---
 
@@ -36,11 +36,11 @@ kubectl expose deployment notepad --port=80 --target-port=80 --type=NodePort
 kubectl get service
 kubectl describe service notepad
 
-![alt text](https://github.com/d8920ya/emergency-notepad/Pictures/4_Deployment-1.jpg "Dokumentasi Deployment #1")
-![alt text](https://github.com/d8920ya/emergency-notepad/Pictures/5_Deployment-2.jpg "Dokumentasi Deployment #2")
+![alt text](https://github.com/d8920ya/emergency-notepad/blob/master/Pictures/4_Deployment-1.jpg "Dokumentasi Deployment #1")
+![alt text](https://github.com/d8920ya/emergency-notepad/blob/master/Pictures/5_Deployment-2.jpg "Dokumentasi Deployment #2")
 
 ---
 
 ### Uji Coba Aplikasi
-![alt text](https://github.com/d8920ya/emergency-notepad/Pictures/6_TestStateless-1.jpg "Menambahkan notes di pods 1")
-![alt text](https://github.com/d8920ya/emergency-notepad/Pictures/7_TestStateless-2.jpg "Menambahkan notes di pods 2")
+![alt text](https://github.com/d8920ya/emergency-notepad/blob/master/Pictures/6_TestStateless-1.jpg "Menambahkan notes di pods 1")
+![alt text](https://github.com/d8920ya/emergency-notepad/blob/master/Pictures/7_TestStateless-2.jpg "Menambahkan notes di pods 2")

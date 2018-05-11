@@ -44,4 +44,4 @@ Setelah menjalankan perintah di atas, kita akan memiliki docker image baru denga
 ---
 
 # My Emergency Notepad App on Kubernetes
-[alt text](https://github.com/d8920ya/emergency-notepad/Kubernetes "[Lihat Dokumentasi di link berikut.]")
+![alt text](https://github.com/d8920ya/emergency-notepad/tree/master/Kubernetes "[Lihat Dokumentasi di link berikut.]")
