@@ -40,3 +40,8 @@ docker run -d -p 5000:80 --name custom_notepad emergency-notepad
 ```
 
 Setelah menjalankan perintah di atas, kita akan memiliki docker image baru dengan versi/tag  default latest. 
+
+---
+
+# My Emergency Notepad App on Kubernetes
+[alt text](https://github.com/d8920ya/emergency-notepad/Kubernetes "[Lihat Dokumentasi di link berikut.]")
